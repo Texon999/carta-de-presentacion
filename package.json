@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-prueba",
+  "version": "1.0.0",
+  "description": "Card-presentacion",
+  "main": "index.js",
+  "scripts": {
+    "build:styles": " npx @tailwindcss/cli -i ./input.css -o ./assets/outpout.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@midudev/tailwind-animations": "^1.0.1",
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
+  }
+}

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+
+
+@theme {
+
+--breakpoint-xs: 350px
+
+
+
+
+
+
+} 
+
+
+.social-button { 
+
+    @apply p-2 size-10 xs:size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
+}
